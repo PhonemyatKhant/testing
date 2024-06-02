@@ -1,8 +1,12 @@
+import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <Link href={'/test'}> <Button>TEST</Button></Link>
+    </div>
   )
 }
 
